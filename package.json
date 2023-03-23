@@ -1,5 +1,5 @@
 {
-    "name": "@x-dirve/lru",
+    "name": "@x-drive/lru",
     "version": "1.0.0",
     "description": "Lru cahce for XLab",
     "repository": {
