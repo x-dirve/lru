@@ -1,0 +1,41 @@
+{
+    "name": "@x-dirve/lru",
+    "version": "1.0.0",
+    "description": "Lru cahce for XLab",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/x-drive/lru.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/x-drive/lru/issues"
+    },
+    "homepage": "https://github.com/x-drive/lru#readme",
+    "scripts": {
+        "dev": "swc src -D ./src/bin  --config-file .swcrc -d dist -w",
+        "compile": "swc src -D ./src/bin --config-file .swcrc -d dist",
+        "build": "yarn compile && yarn gen-declaration",
+        "gen-declaration": "tsc --emitDeclarationOnly"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "lru-cache": "6.0.0",
+        "@x-drive/utils": "1.1.24"
+    },
+    "devDependencies": {
+        "koa": "2.13.1",
+        "tslib": "2.3.0",
+        "chokidar": "3.5.3",
+        "@swc/cli": "0.1.57",
+        "typescript": "4.3.4",
+        "@swc/core": "1.2.171",
+        "@x-9lab/xlab": "^1.4.1",
+        "@types/node": "16.11.40",
+        "@x-drive/changelog": "1.1.6"
+    },
+    "files": [
+        "dist"
+    ]
+}
