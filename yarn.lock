@@ -143,11 +143,6 @@
   dependencies:
     chalk "4.1.0"
 
-"@x-drive/utils@1.1.24":
-  version "1.1.24"
-  resolved "https://registry.yarnpkg.com/@x-drive/utils/-/utils-1.1.24.tgz#ff53a2e76d8527543ef427806b244a35f3ac8563"
-  integrity sha512-1VTSUlyeMHUhd6VehIS0PDyUrb4yzLoeY2/SavoAGF1soQrbFtmkhef+MZHNo0/pcIAljvWNY2LXVlhuNonvgg==
-
 "@x-drive/utils@1.1.32":
   version "1.1.32"
   resolved "https://registry.yarnpkg.com/@x-drive/utils/-/utils-1.1.32.tgz#79c786900386817e637026435c8f50745a6a36dd"
